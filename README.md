@@ -42,7 +42,7 @@ Use o menu interativo:</br>
 
 Exemplo:
 
-Cadastrar:
+Cadastrar:<br/>
 Nome: João Silva<br/>
 Email: joao.silva@email.com<br/>
 Data de nascimento (DD/MM/AAAA): 15/03/1990<br/>
@@ -50,8 +50,8 @@ Usuário 'João Silva' cadastrado com sucesso!<br/>
 
 
 Buscar:
-Digite o nome do usuário que deseja buscar: Joao
-Usuário Encontrado
+Digite o nome do usuário que deseja buscar: <br/>Joao
+Usuário Encontrado<br/>
 ┌─────┬────────────────────┬──────────────────────────────┬───────────────┐
 │ ID  │ Nome               │ Email                        │ Nascimento    │
 ├─────┼────────────────────┼──────────────────────────────┼───────────────┤
