@@ -1,4 +1,4 @@
-#Sistema de Gerenciamento de Usuários <br/>
+<h2>Sistema de Gerenciamento de Usuários</h2> <br/>
 Um sistema simples em Python para gerenciar usuários, usando SQLite e rich para uma interface de terminal estilizada. Permite cadastrar, listar, buscar, atualizar, deletar, exportar usuários e filtrar por ano de nascimento, com busca insensível a acentos e maiúsculas/minúsculas.
 Funcionalidades
 
