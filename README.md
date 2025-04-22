@@ -43,10 +43,10 @@ Use o menu interativo:</br>
 Exemplo:
 
 Cadastrar:
-Nome: João Silva
-Email: joao.silva@email.com
-Data de nascimento (DD/MM/AAAA): 15/03/1990
-Usuário 'João Silva' cadastrado com sucesso!
+Nome: João Silva<br/>
+Email: joao.silva@email.com<br/>
+Data de nascimento (DD/MM/AAAA): 15/03/1990<br/>
+Usuário 'João Silva' cadastrado com sucesso!<br/>
 
 
 Buscar:
