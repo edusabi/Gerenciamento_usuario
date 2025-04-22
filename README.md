@@ -28,7 +28,7 @@ Execute o script:
 python gerenciador_usuarios.py
 
 
-Use o menu interativo:
+Use o menu interativo:</br>
 === Sistema de Gerenciamento de Usuários ===
 1. Cadastrar usuário
 2. Listar usuários
