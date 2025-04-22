@@ -1,34 +1,47 @@
-<h2>Sistema de Gerenciamento de Usuários</h2> <br/>
-Um sistema simples em Python para gerenciar usuários, usando SQLite e rich para uma interface de terminal estilizada. Permite cadastrar, listar, buscar, atualizar, deletar, exportar usuários e filtrar por ano de nascimento, com busca insensível a acentos e maiúsculas/minúsculas.
-Funcionalidades
+## 🧑‍💻 Sistema de Gerenciamento de Usuários
 
-Cadastrar, listar, buscar, atualizar e deletar usuários.
-Exportar usuários para um arquivo de texto.
-Filtrar usuários por ano de nascimento.
-Busca por nome ignora acentos (ex.: João = Joao).
-Tabelas e mensagens coloridas com rich.
+Um sistema simples em Python para gerenciar usuários, usando SQLite e Rich para uma interface de terminal estilizada.
 
-Pré-requisitos
+Permite cadastrar, listar, buscar, atualizar, deletar, exportar usuários e filtrar por ano de nascimento, com busca insensível a acentos e maiúsculas/minúsculas.
 
-Python 3.6+
-Biblioteca rich
+---
 
-Instalação
+### ✅ Funcionalidades
+- Cadastrar, listar, buscar, atualizar e deletar usuários
+- Exportar usuários para um arquivo `.txt`
+- Filtrar usuários por ano de nascimento
+- Busca por nome ignora acentos (ex.: João = Joao)
+- Tabelas e mensagens coloridas com rich
 
-Instale a dependência:
+---
+
+### 🛠️ Pré-requisitos
+- Python 3.6 ou superior
+- Biblioteca `rich`
+
+---
+
+### 📦 Instalação
+Instale a dependência com:
+```bash
 pip install rich
+```
 
+Baixe o script:
+```bash
+gerenciador_usuarios.py
+```
 
-Baixe o script gerenciador_usuarios.py.
+---
 
-
-Uso
-
+### 🚀 Uso
 Execute o script:
+```bash
 python gerenciador_usuarios.py
+```
 
-
-Use o menu interativo:</br>
+Use o menu interativo:
+```
 === Sistema de Gerenciamento de Usuários ===
 1. Cadastrar usuário
 2. Listar usuários
@@ -38,33 +51,36 @@ Use o menu interativo:</br>
 6. Exportar usuários para TXT
 7. Filtrar por ano de nascimento
 0. Sair
+```
 
+---
 
-Exemplo:
+### 💡 Exemplo
 
-Cadastrar:<br/>
-Nome: João Silva<br/>
-Email: joao.silva@email.com<br/>
-Data de nascimento (DD/MM/AAAA): 15/03/1990<br/>
-Usuário 'João Silva' cadastrado com sucesso!<br/>
+**Cadastrar:**
+```
+Nome: João Silva
+Email: joao.silva@email.com
+Data de nascimento (DD/MM/AAAA): 15/03/1990
+Usuário 'João Silva' cadastrado com sucesso!
+```
 
+**Buscar:**
+```
+Digite o nome do usuário que deseja buscar: Joao
+Usuário Encontrado
 
-Buscar:
-Digite o nome do usuário que deseja buscar: <br/>Joao
-Usuário Encontrado<br/>
 ┌─────┬────────────────────┬──────────────────────────────┬───────────────┐
 │ ID  │ Nome               │ Email                        │ Nascimento    │
 ├─────┼────────────────────┼──────────────────────────────┼───────────────┤
 │ 1   │ João Silva         │ joao.silva@email.com         │ 15/03/1990    │
 └─────┴────────────────────┴──────────────────────────────┴───────────────┘
+```
 
+---
 
-
-
-Notas
-
-Busca sem acentos: Usa unicodedata para normalizar nomes, permitindo buscas sem acentos.
-Banco: Dados salvos em usuarios.db.
-Exportação: Resultados em usuarios_exportados.txt.
-
+### 📝 Notas
+- **Busca sem acentos**: Usa `unicodedata` para normalizar nomes, permitindo buscas sem acentos.
+- **Banco de dados**: Informações salvas em `usuarios.db`.
+- **Exportação**: Resultados exportados para `usuarios_exportados.txt`.
 
